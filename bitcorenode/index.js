@@ -7,7 +7,7 @@ var https = require('https');
 var http = require('http');
 var async = require('async');
 var path = require('path');
-var bitcore = require('bitcore-lib');
+var bitcore = require('bitcore-lib-dash');
 var Networks = bitcore.Networks;
 var Locker = require('locker-server');
 var BlockchainMonitor = require('../lib/blockchainmonitor');
@@ -44,7 +44,7 @@ var Service = function(options) {
 
 util.inherits(Service, EventEmitter);
 
-Service.dependencies = ['insight-api'];
+Service.dependencies = ['insight-api-dash'];
 
 /**
  * This method will read `key` and `cert` files from disk based on `httpsOptions` and
