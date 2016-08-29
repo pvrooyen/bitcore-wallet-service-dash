@@ -42,7 +42,7 @@ var config = {
     },
     testnet: {
       provider: 'insight',
-      url: 'https://test-insight.bitpay.com:443',
+      url: 'https://dev-test.dash.org:3001',
       // url: 'http://localhost:3001',
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
