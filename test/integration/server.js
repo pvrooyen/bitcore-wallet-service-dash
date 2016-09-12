@@ -6591,9 +6591,9 @@ describe('Wallet service', function() {
 
       it('should scan main addresses', function(done) {
         helpers.stubAddressActivity(
-          ['39AA1Y2VvPJhV3RFbc7cKbUax1WgkPwweR', // m/2147483647/0/0
-            '3QX2MNSijnhCALBmUVnDo5UGPj3SEGASWx', // m/2147483647/0/2
-            '3MzGaz4KKX66w8ShKaR536ZqzVvREBqqYu', // m/2147483647/1/0
+          ['7ZsnqjJfjNQLUoxCsDn7eyUEsZM4cyDBJR', // m/2147483647/0/0
+            '7qEfBZitYmnqA6iik7Sj8TTvKGsp1NQ2yK', // m/2147483647/0/2
+            '7nhuRBLV8WBjvtyebC5aNUZVv3ko165rxE', // m/2147483647/1/0
           ]);
         var expectedPaths = [
           'm/2147483647/0/0',
@@ -6622,11 +6622,11 @@ describe('Wallet service', function() {
       });
       it('should scan main addresses & copayer addresses', function(done) {
         helpers.stubAddressActivity(
-          ['39AA1Y2VvPJhV3RFbc7cKbUax1WgkPwweR', // m/2147483647/0/0
-            '3MzGaz4KKX66w8ShKaR536ZqzVvREBqqYu', // m/2147483647/1/0
-            '3BYoynejwBH9q4Jhr9m9P5YTnLTu57US6g', // m/0/0/1
-            '37Pb8c32hzm16tCZaVHj4Dtjva45L2a3A3', // m/1/1/0
-            '32TB2n283YsXdseMqUm9zHSRcfS5JxTWxx', // m/1/0/0
+          ['7ZsnqjJfjNQLUoxCsDn7eyUEsZM4cyDBJR', // m/2147483647/0/0
+            '7nhuRBLV8WBjvtyebC5aNUZVv3ko165rxE', // m/2147483647/1/0
+            '7cGSoyvukANnppqf7mReiTY7htJGr1FNPv', // m/0/0/1
+            '7Y7DxoKCWyre6ejWr6xEPbtPr7tT9Sfd2X', // m/1/1/0
+            '7TAoryJHrXyAdeBK76RfKfS5YDGTD2iseR', // m/1/0/0
           ]);
         var expectedPaths = [
           'm/2147483647/0/0',
@@ -6672,9 +6672,9 @@ describe('Wallet service', function() {
 
     it('should start an asynchronous scan', function(done) {
       helpers.stubAddressActivity(
-        ['3GvvHimEMk2GBZnPxTF89GHZL6QhZjUZVs', // m/2147483647/0/0
-          '37pd1jjTUiGBh8JL2hKLDgsyrhBoiz5vsi', // m/2147483647/0/2
-          '3C3tBn8Sr1wHTp2brMgYsj9ncB7R7paYuB', // m/2147483647/1/0
+        ['7heZ7v3QAj7uBLKME4udUeHDFeF5PP1ptK', // m/2147483647/0/0
+          '7YYFqw1dHhMpgtqHJJyqZ4sdnF2BUrBdxz', // m/2147483647/0/2
+          '7cmX1yQcf12vTaZZ7yM4D79SXiwnvFU3W5', // m/2147483647/1/0
         ]);
       var expectedPaths = [
         'm/2147483647/0/0',
