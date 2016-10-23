@@ -144,7 +144,7 @@ describe('Storage', function() {
         proposals = _.map(_.range(4), function(i) {
           var tx = Model.TxProposalLegacy.create({
             walletId: '123',
-            toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
+            toAddress: 'XqHSiRAXd3EmNUPCAqok6ch5XzVWqKg7VD',
             creatorId: wallet.copayers[0].id,
             amount: i + 100,
           });

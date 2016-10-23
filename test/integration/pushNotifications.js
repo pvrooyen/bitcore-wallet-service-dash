@@ -275,7 +275,7 @@ describe('Push notifications', function() {
 
     it('should notify copayers a new tx proposal has been created', function(done) {
       helpers.stubUtxos(server, wallet, [1, 1], function() {
-        var txOpts = helpers.createSimpleProposalOpts('18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7', 0.8, TestData.copayers[0].privKey_1H_0, {
+        var txOpts = helpers.createSimpleProposalOpts('XqHSiRAXd3EmNUPCAqok6ch5XzVWqKg7VD', 0.8, TestData.copayers[0].privKey_1H_0, {
           message: 'some message'
         });
         server.createAddress({}, function(err, address) {
@@ -300,7 +300,7 @@ describe('Push notifications', function() {
 
     it('should notify copayers a tx has been finally rejected', function(done) {
       helpers.stubUtxos(server, wallet, 1, function() {
-        var txOpts = helpers.createSimpleProposalOpts('18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7', 0.8, TestData.copayers[0].privKey_1H_0, {
+        var txOpts = helpers.createSimpleProposalOpts('XqHSiRAXd3EmNUPCAqok6ch5XzVWqKg7VD', 0.8, TestData.copayers[0].privKey_1H_0, {
           message: 'some message'
         });
 
@@ -341,7 +341,7 @@ describe('Push notifications', function() {
 
     it('should notify copayers a new outgoing tx has been created', function(done) {
       helpers.stubUtxos(server, wallet, 1, function() {
-        var txOpts = helpers.createSimpleProposalOpts('18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7', 0.8, TestData.copayers[0].privKey_1H_0, {
+        var txOpts = helpers.createSimpleProposalOpts('XqHSiRAXd3EmNUPCAqok6ch5XzVWqKg7VD', 0.8, TestData.copayers[0].privKey_1H_0, {
           message: 'some message'
         });
 

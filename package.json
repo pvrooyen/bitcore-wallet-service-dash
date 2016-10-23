@@ -1,26 +1,26 @@
 {
-  "name": "bitcore-wallet-service",
-  "description": "A service for Mutisig HD Bitcoin Wallets",
+  "name": "bitcore-wallet-service-dash",
+  "description": "A service for Mutisig HD Dash Wallets",
   "author": "BitPay Inc",
   "version": "1.9.0",
   "keywords": [
-    "bitcoin",
-    "copay",
+    "dash",
+    "copay-dash",
     "multisig",
     "wallet",
-    "bitcore",
+    "bitcore-dash",
     "BWS"
   ],
   "repository": {
-    "url": "git@github.com:bitpay/bitcore-wallet-service.git",
+    "url": "git@github.com:dashpay/bitcore-wallet-service-dash.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-wallet-service/issues"
+    "url": "https://github.com/dashpay/bitcore-wallet-service-dash/issues"
   },
   "dependencies": {
     "async": "^0.9.2",
-    "bitcore-lib": "^0.13.7",
+    "bitcore-lib-dash": "^0.13.19",
     "body-parser": "^1.11.0",
     "coveralls": "^2.11.2",
     "email-validator": "^1.0.1",
