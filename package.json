@@ -2,7 +2,7 @@
   "name": "bitcore-wallet-service-dash",
   "description": "A service for Mutisig HD Dash Wallets",
   "author": "BitPay Inc",
-  "version": "1.9.1",
+  "version": "1.9.2",
   "keywords": [
     "dash",
     "copay-dash",
