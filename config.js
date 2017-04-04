@@ -2,9 +2,11 @@ var config = {
   basePath: '/bws/api',
   disableLogs: false,
   port: 3232,
+
   // Uncomment to make BWS a forking server
   // cluster: true,
-  // Uncomment to use the nr of availalbe CPUs
+
+  // Uncomment to set the number or process (will use the nr of availalbe CPUs by default)
   // clusterInstances: 4,
 
   // https: true,
@@ -53,7 +55,8 @@ var config = {
     defaultLanguage: 'en',
     defaultUnit: 'btc',
     subjectPrefix: '',
-    pushServerUrl: 'http://localhost:8000',
+    pushServerUrl: 'https://fcm.googleapis.com/fcm',
+    authorizationKey: '',
   },
   fiatRateServiceOpts: {
     defaultProvider: 'BitPay',
@@ -81,6 +84,5 @@ var config = {
   //  api_user: xxx,
   //  api_key: xxx,
   // });
-
 };
 module.exports = config;
