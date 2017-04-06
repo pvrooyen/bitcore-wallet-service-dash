@@ -327,7 +327,7 @@ describe('Push notifications', function() {
       helpers.stubUtxos(server, wallet, 1, function() {
         var txOpts = {
           outputs: [{
-            toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
+            toAddress: 'XnVrRU3zSEJ822mxtNNCBRJXz2mchBgBjz',
             amount: 0.8e8
           }],
           feePerKb: 100e2
@@ -372,7 +372,7 @@ describe('Push notifications', function() {
       helpers.stubUtxos(server, wallet, 1, function() {
         var txOpts = {
           outputs: [{
-            toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
+            toAddress: 'XnVrRU3zSEJ822mxtNNCBRJXz2mchBgBjz',
             amount: 0.8e8
           }],
           feePerKb: 100e2
